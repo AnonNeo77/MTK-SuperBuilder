@@ -73,7 +73,7 @@ super_def.*.json
 ### Display Layout Information
 
 ```bash
-superbuilder info <firmware_directory>
+superbuilder info <super_def.json>
 ```
 
 Shows:
@@ -86,7 +86,7 @@ Shows:
 ### Validate Layout
 
 ```bash
-superbuilder validate <firmware_directory>
+superbuilder validate <super_def.json>
 ```
 
 Checks:
@@ -99,31 +99,31 @@ Checks:
 Create empty A/B slot entries when required:
 
 ```bash
-superbuilder validate <firmware_directory> --create-empty-slots
+superbuilder validate <super_def.json> --create-empty-slots
 ```
 
 ### Build super.img
 
 ```bash
-superbuilder build <firmware_directory> -o super.img
+superbuilder build <super_def.json> -o super.img
 ```
 
 Print generated `lpmake` command:
 
 ```bash
-superbuilder build <firmware_directory> -o super.img --print-cmd
+superbuilder build <super_def.json> -o super.img --print-cmd
 ```
 
 Create empty slot entries during build:
 
 ```bash
-superbuilder build <firmware_directory> -o super.img --create-empty-slots
+superbuilder build <super_def.json> -o super.img --create-empty-slots
 ```
 
 Dry-run without executing `lpmake`:
 
 ```bash
-superbuilder build <firmware_directory> -o super.img --dry-run
+superbuilder build <super_def.json> -o super.img --dry-run
 ```
 
 ### Import Existing super.img
