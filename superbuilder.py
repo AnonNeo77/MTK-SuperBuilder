@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MTK-SuperBuilder: A streamlined CLI utility to build and unpack Android super.img
+MTK-SuperBuilder: A CLI tool to build and unpack Android super.img
 layouts using lpmake and lpunpack .
 """
 
