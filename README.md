@@ -35,7 +35,7 @@ Python:
 Clone the repository:
 
 ```bash
-git clone https://github.com/AnonNeo77/MTK-SuperBuilder.git
+git clone https://github.com/0xNeo77/MTK-SuperBuilder.git
 cd MTK-SuperBuilder
 ```
 
